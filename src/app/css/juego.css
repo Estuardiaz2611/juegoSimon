@@ -1,0 +1,18 @@
+
+
+#simon div {width:49.2%;height:240px;float:left;margin:0.4%;opacity:0.5;}
+#simon div:hover {border:5px solid #000;cursor:pointer;}
+
+.showColor {opacity:1!important;}
+
+#verde {background-color:green;}
+#rojo {background-color:red;}
+#amarillo {background-color:yellow;}
+#azul {background-color:blue;}
+
+#verde:active {opacity:1!important;}
+#rojo:active {opacity:1!important;}
+#amarillo:active {opacity:1!important;}
+#azul:active {opacity:1!important;}
+
+#mensaje {margin-top:20px;}

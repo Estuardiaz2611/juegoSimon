@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+        <meta charset="UTF-8">
+        <title>Juego Simon</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/juego.css">
+</head>
+ 
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" style="color: white; font-size: 25px">Menu</a>
+        <a class="navbar-brand" href="home.html" style="font-size: 25px">Home</a>
+        <a class="navbar-brand" href="juego.html" style="font-size: 25px">Jugar</a>
+    </nav>
+
+    <div id="simon">
+        <div id="verde"></div>
+        <div id="rojo"></div>
+        <div id="amarillo"></div>
+        <div id="azul"></div>
+    </div>
+
+    <br>
+    <input  class="btn btn-primary" type="button" style="margin-left: 2%" value="empezar/reiniciar">
+    <label style="margin-left: 1%" >nivel:</label>
+    <span id="movimientos" style="margin-left: 1%">0</span>
+    <div id="mensaje"></div>
+
+
+ <script src="../app/JS/juego.js"></script>
+</body>
+</html>
